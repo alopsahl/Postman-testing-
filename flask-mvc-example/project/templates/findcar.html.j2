@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ data['title'] }}</title>
+  </head>
+  <body>
+<h1>
+    Skriv regnr:
+</h1>
+<form method="post">
+  regnr: <input name="regnr"/>
+  <br/><br/>
+  <button type="submit">Submit</button>
+</form>
+
+<h1>Information from database</h1>
+
+    <h1>Make: {{ cars['make'] }}</h1></br>
+    <h1>Model: {{ cars['model'] }}</h1></br>
+    <h1>Model year: {{ cars['year'] }}</h1></br>
+    <h1>Registration: {{ cars['reg'] }}</h1></br>
+    <h1>Location: {{ cars['location'] }}</h1></br>
+    <h1>Status: {{ cars['status'] }}</h1>   
+
+  </body>
+
+</html>
+
